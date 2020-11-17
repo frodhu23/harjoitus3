@@ -16,10 +16,11 @@ Aloitin tekemällä github tunnukset ja luomalla uuden repositoryn
 ![create_repo](https://user-images.githubusercontent.com/74610221/99412087-04f60100-28fd-11eb-80f0-3148ce6c4143.PNG)
 
 Tämän jälkeen kopioin tiedoston virtuaalikoneeni Xubuntuun komennolla
-git clone https://github.com/frodhu23/harjoitukset3.git
+$ git clone https://github.com/frodhu23/harjoitukset3.git
 
 Määrittelin käyttäjätiedot
 $ git config --global user.email "sposti"
 $ git config --global user.name "frodhu23"
 
 ![first_commit](https://user-images.githubusercontent.com/74610221/99412698-b1d07e00-28fd-11eb-8873-1bb447649fb4.PNG)
+![git_push](https://user-images.githubusercontent.com/74610221/99412782-c6147b00-28fd-11eb-92d1-dc356df0b0e3.PNG)
