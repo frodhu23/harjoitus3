@@ -49,6 +49,29 @@ Git diff komennolla näet paikallisen kansion ja github repositoryn eron
 
 Tein muutaman muutoksen README.md tiedostoon ja käytin komentoa
 
-$ git reset --hard
+  $ git reset --hard
 
 ![reset](https://user-images.githubusercontent.com/74610221/99415463-7c795f80-2900-11eb-99e7-6097f3a408ab.PNG)
+
+
+## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
+
+Lisäsin top.sls tiedostooni uuden rivin "-editing"
+
+![top sls](https://user-images.githubusercontent.com/74610221/99416620-b5660400-2901-11eb-8472-9cf5ab59af38.PNG)
+
+sekä loin uuden tiedoston editing.sls jonka sisälle kirjoitin
+
+
+![editin](https://user-images.githubusercontent.com/74610221/99417557-ba778300-2902-11eb-83cd-1505ed340109.PNG)
+      
+ja ajoin sen komennolla
+
+$ sudo salt '*' state.highstate
+
+![blender](https://user-images.githubusercontent.com/74610221/99417231-5d7bcd00-2902-11eb-955b-56e63c3aee96.PNG)
+
+
+![blender2](https://user-images.githubusercontent.com/74610221/99417309-73898d80-2902-11eb-91b1-0bb99d17beac.PNG)
+
+Raportin lopetus 18:34
