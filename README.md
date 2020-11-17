@@ -21,3 +21,5 @@ git clone https://github.com/frodhu23/harjoitukset3.git
 Määrittelin käyttäjätiedot
 $ git config --global user.email "sposti"
 $ git config --global user.name "frodhu23"
+
+![first_commit](https://user-images.githubusercontent.com/74610221/99412698-b1d07e00-28fd-11eb-8873-1bb447649fb4.PNG)
